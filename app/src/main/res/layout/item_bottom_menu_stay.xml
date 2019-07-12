@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="horizontal">
+
+    <com.example.sikkimtourapp.CustomTextView
+        android:id="@+id/hotels"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableTop="@drawable/ic_hotels"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Hotels"
+        app:font_name="regular"
+        android:textColor="#757575"
+        android:textAllCaps="false"
+        android:textSize="15dp">
+
+    </com.example.sikkimtourapp.CustomTextView>
+
+    <com.example.sikkimtourapp.CustomTextView
+        android:id="@+id/homestays"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableTop="@drawable/ic_homestay"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:text="Homestays"
+        app:font_name="regular"
+        android:textColor="#757575"
+        android:textAllCaps="false"
+        android:textSize="15dp">
+
+    </com.example.sikkimtourapp.CustomTextView>
+
+</LinearLayout>

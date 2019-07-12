@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="You want to stay at...">
+        <menu>
+            <group android:id="@+id/nav_stay_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_hotels"
+                    android:icon="@drawable/ic_hotels"
+                    android:title="Hotels"/>
+                <item
+                    android:id="@+id/nav_homestays"
+                    android:icon="@drawable/ic_homestay"
+                    android:title="Homestays"/>
+            </group>
+        </menu>
+    </item>
+</menu>

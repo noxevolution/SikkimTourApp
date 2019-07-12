@@ -5,13 +5,13 @@
 
     <item android:drawable="@color/colorPrimary" />
 
-    <!-- Set the Background Image-->
+    <!-- Set the background Image-->
     <item
         android:width="500dp"
         android:height="700dp"
         android:gravity="center">
         <bitmap
             android:gravity="fill_horizontal|fill_vertical"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@drawable/background" />
     </item>
 </layer-list>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/action_stay"
+    android:title="Stay"
+    android:icon="@drawable/ic_guest"
+    app:showAsAction="ifRoom" />
+
+<item
+    android:title="Cabs"
+    android:id="@+id/action_cabs"
+    android:icon="@drawable/ic_cabs"
+    app:showAsAction="ifRoom" />
+
+<item
+    android:id="@+id/action_activities"
+    android:title="Activity"
+    android:icon="@drawable/ic_tent"
+    app:showAsAction="ifRoom" />
+
+<item
+    android:id="@+id/action_more"
+    android:title="More"
+    android:icon="@drawable/ic_more"
+    app:showAsAction="ifRoom" />
+</menu>
